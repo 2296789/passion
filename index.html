@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;900&display=swap');
+
+        body{
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            background-color: antiquewhite;
+        }
+        nav{
+            background-color: #05508d;
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            overflow: auto;
+        }
+        nav a{
+            text-decoration: none;
+            color: #f1e28d;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: block;
+            padding: 15px;
+        }
+        nav a.active{
+            background-color: #f1e28d;
+            color:#05508d;
+        }
+        nav a:hover:not(.active){
+            background-color: #e4f0b9;
+            color: #05508d;
+        }
+    </style>
 </head>
 <body>
-    <h1>Passionsssss</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente officiis aliquid architecto, numquam rem non accusantium corporis consectetur veritatis quam labore fugiat perspiciatis temporibus tenetur, dolorem debitis ducimus quisquam minima.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum id ipsam, dolor eligendi porro corporis explicabo quia fuga ex soluta debitis, alias autem maxime recusandae distinctio quam deleniti sint totam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum eligendi ipsam placeat dolor? Repellendus perspiciatis ea, culpa rem corrupti reiciendis voluptas cupiditate quos eaque! Corrupti beatae numquam nisi mollitia..</p>
+    <header><h1>Prédictions passées de Judy</h1></header>
+    <nav role="menu">
+        <a href="index.html" role="menuitem" class="active">Accueil</a>
+        <a href=".html" role="menuitem">Prédictions du monde</a>
+        <a href=".html" role="menuitem">Économie / Affaires</a>
+        <a href=".html" role="menuitem">technologie</a>
+        <a href=".html" role="menuitem">Royauté britannique</a>
+        <a href=".html" role="menuitem">Sportives</a>
+        <a href=".html" role="menuitem">Catastrophes naturelles</a>
+        <a href=".html" role="menuitem">Santé</a>
+    </nav>
+    <p>Judy a correctement prédit le bébé de Paris Hilton, la victoire du représentant Kevin McCarthy pour le président de la Chambre des États-Unis, l'invasion de l'Ukraine par Poutine, la réélection d'Emmanuel Macron en France, Rishi Sunak, le Premier ministre britannique, Bongbong Marcos élu président des Philippines, Yoon Seok-Youl, le nouveau chef de la Corée du Sud, les lauréats de la 94e cérémonie des Oscars, le projet de loi d'infrastructure du président adopté par le Congrès américain et l'Amérique rejoignant l'accord de Paris sur le climat.</p>
 </body>
 </html>
